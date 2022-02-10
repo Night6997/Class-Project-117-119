@@ -1,0 +1,33 @@
+body
+{
+    background: linear-gradient(to bottom, green, blueviolet);
+}
+
+h1
+{
+    background-color: pink;
+    color:goldenrod;
+}
+#OpenModalBtn{
+    float:right;
+}
+canvas
+{
+    border:2px teal;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 10px 10px 15px pink}
+    to{box-shadow: 10px 10px 15px black;}
+}
+
+.label
+{
+    padding-top:10px;
+    font-size:25px;
+    color: gold;
+}
